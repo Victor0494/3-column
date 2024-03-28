@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #e38826;
+    --cor-secundaria: #006970;
+    --cor-terciaria: #004241;
+    --cor-branca-primaria: #f2f2f2;
+    --cor-branca-secundaria: #dfdfdf;
+
+    --font-primaria: "Lexend Deca", sans-serif;
+    --font-secundaria: "Big Shoulders Display", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 0.938rem;
+    width: 100%;
+    display: flex;
+}
+
+.container__div {
+    width: 57.5rem;
+    height: 31.25rem;
+    margin: 12.5rem 30rem;
+    display: flex;
+}
+
+.container__div__cars {
+    display: flex;
+    flex-direction: column;
+    padding: 3.125rem 3.125rem;
+    gap: 1.875rem;
+    text-align: start;
+}
+
+.first {
+    background-color: var(--cor-primaria);
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+
+.second {
+    background-color: var(--cor-secundaria);
+}
+
+.third {
+    background-color: var(--cor-terciaria);
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+} 
+
+.img__icon {
+    width: 4rem;
+    height: 2.5rem;
+}
+
+.type_cars {
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    color: var(--cor-branca-primaria);
+    font-size: 2.5rem;
+}
+
+.content {
+    font-family: var(--font-primaria);
+    color: var(--cor-branca-secundaria);
+    font-weight: 400;
+    line-height: 1.563rem;
+    padding-bottom: 0.625rem;
+}
+
+.learn__more {
+    background-color: var(--cor-branca-primaria);
+    width: 9.375rem;
+    height: 1.25rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding: 0.938rem 0;
+    text-decoration: none;
+    font-family: var(--font-primaria);
+    font-weight: 500;
+}
+
+.learn__more:hover {
+    border: 2px solid white;
+    background-color: transparent;
+    color: var(--cor-branca-primaria);
+}
+
+.more__first {
+    color: var(--cor-primaria);
+}
+
+.more__second {
+    color: var(--cor-secundaria);
+}
+
+.more__third {
+    color: var(--cor-terciaria);
+}
+
+
